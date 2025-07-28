@@ -1,0 +1,12 @@
+.view-container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.view-image {
+  width: 60%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}

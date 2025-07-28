@@ -1,0 +1,31 @@
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-content h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.dashboard-content select {
+  width: 250px;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #c5c5c5;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.dashboard-content select:focus {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}

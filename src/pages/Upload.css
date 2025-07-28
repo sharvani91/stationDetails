@@ -1,0 +1,112 @@
+.upload-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.upload-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.browse-btn,
+.scan-btn {
+  height:30px;
+  width:80px;
+  padding: 2px ;
+  font-size: 13px;
+  background-color: #035e89;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.browse-btn:hover,
+.scan-btn:hover {
+  background-color: #02496d;
+}
+
+.picture-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.image-preview {
+  width: 60%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.scan-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.station-table { 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 70%;
+}
+
+.station-table table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.station-table th {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.station-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.table-btn {
+  padding: 4px 10px;
+  font-size: 13px;
+  background-color: #035e89;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-btn:hover {
+  background-color: #02496d;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.upload-label input[type="file"] {
+  display: none;
+}
+
+.upload-btn{
+  margin-top: 0;
+  font-weight: normal;
+  width: 50%;
+}
+
+.file-name {
+  font-size: 12px;
+  color: #333;
+  margin-top: 4px;
+}
